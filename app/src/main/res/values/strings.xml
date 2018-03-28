@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Дистанционное управление</string>
+    <string name="eroor">Что то пошло не так!</string>
+    <string name="control">Управление</string>
+    <string name="inform">Информация</string>
+    <string name="temperature">Температура:</string>
+    <string name="hum">Влажность:</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Remote Controler</string>
+    <string name="eroor">Ooops!</string>
+    <string name="control">Control</string>
+    <string name="inform">Information</string>
+    <string name="temperature">Temperature:</string>
+    <string name="hum">Humidity:</string>
+</resources>
