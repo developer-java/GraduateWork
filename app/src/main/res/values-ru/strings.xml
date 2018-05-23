@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Дистанционное управление</string>
-    <string name="eroor">Что то пошло не так!</string>
     <string name="control">Управление</string>
     <string name="inform">Информация</string>
-    <string name="temperature">Температура:</string>
-    <string name="hum">Влажность:</string>
+    <string name="temperature">Температура</string>
+    <string name="hum">Влажность</string>
+    <string name="tv">Телевизор</string>
+    <string name="tvDesc">Небольшие ЖК-телевизоры потребляют от 50 до 80 Вт/ч – 8-12 кВт/ч в месяц. Забыли отключить? Можете отключить касанием!</string>
+    <string name="coffe">Кофеварка</string>
+    <string name="coffeDesc">Хотите чего нибудь горячего сразу как только приедете домой? Включите кофеварку и он подготовит все до вашего приезда!</string>
+    <string name="cool">Кондиционер</string>
+    <string name="coolDesc">Вы уехали и забыли отключить кондиционер? Отключтиь ее?</string>
+    <string name="error">Ошибка при обращени к серверу</string>
+    <string name="menu1">Инструкция пользователья</string>
+    <string name="menu2">О программе</string>
+    <string name="menu3">Выход</string>
+    <string name="menu4">Устройства</string>
+    <string name="author">Автор</string>
+    <string name="email">Электронная почта: </string>
+    <string name="fio">ФИО: </string>
+    <string name="studentIs">Студент: </string>
+    <string name="afio">Магжан Амангелдиулы</string>
+    <string name="aemail">amangeldi144@gmail.com</string>
+    <string name="connected">Подключен</string>
+    <string name="disconnected">Не подключен</string>
+    <string name="student">Казахский агротехнический университет</string>
+    <string name="let">Проект был создан мною для защиты дипломного проекта кафедры Вычислительной техники и профессионального обучении.</string>
+    <string name="about">
+        \tЭта программа предназначена для дистанционного управления бытовой техники. Целью данного проекта является упрощение жизни миллионам людей. С помощью этой программы и системы построены на платформе Arduino можно управлять любой домашней техникой из любого конца света.
+    </string>
 </resources>

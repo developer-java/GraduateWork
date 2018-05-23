@@ -1,15 +1,32 @@
 package android.gw.com.remotecontroller.models;
 
-import java.util.List;
-
 public class Responce {
-    List<District> districts;
 
-    public List<District> getDistricts() {
-        return districts;
+    private Greeting info;
+    private boolean[] ports;
+    private boolean[] status;
+
+    public boolean[] getStatus() {
+        return status;
     }
 
-    public void setDistricts(List<District> districts) {
-        this.districts = districts;
+    public void setStatus(boolean[] status) {
+        this.status = status;
+    }
+
+    public Greeting getInfo() {
+        return info;
+    }
+
+    public void setInfo(Greeting info) {
+        this.info = info;
+    }
+
+    public boolean[] getPorts() {
+        return ports;
+    }
+
+    public void setPorts(boolean[] ports) {
+        this.ports = ports;
     }
 }

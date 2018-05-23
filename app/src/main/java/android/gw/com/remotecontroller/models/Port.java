@@ -2,61 +2,27 @@ package android.gw.com.remotecontroller.models;
 
 public class Port {
 
-    private int id;
-    private Status status;
-    private Type type;
+    private int status;
+    private int techId;
 
-    public Type getType() {
-        return type;
-    }
-
-    public Port(int id, Status status, Type type) {
-        this.id = id;
+    public Port(int status, int techId) {
         this.status = status;
-        this.type = type;
+        this.techId = techId;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public Status getStatus() {
+    public int getStatus() {
         return status;
     }
 
-    public void setStatus(Status status) {
+    public void setStatus(int status) {
         this.status = status;
     }
-    public boolean isActive(){
-        return Status.OFF == getStatus() ? false : true;
+
+    public int getTechId() {
+        return techId;
     }
 
-    public enum Status{
-        ON("Включено"), OFF("Выключено");
-        private String desc;
-        private Status(String desc){
-            this.desc = desc;
-        }
-
-        public String getDesc() {
-            return desc;
-        }
-    }
-
-    public enum Type{
-        ANALOG("Аналоговый порт"), DIGITAL("Цифровой порт");
-        private String desc;
-
-        Type(String desc) {
-            this.desc = desc;
-        }
-
-        public String getDesc() {
-            return desc;
-        }
+    public void setTechId(int techId) {
+        this.techId = techId;
     }
 }

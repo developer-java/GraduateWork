@@ -2,7 +2,7 @@ package android.gw.com.remotecontroller.models;
 
 public class Greeting {
     private float tmp;
-    private float hum;
+    private float hur;
 
     public float getTmp() {
         return tmp;
@@ -12,12 +12,11 @@ public class Greeting {
         this.tmp = tmp;
     }
 
-    public float getHum() {
-        return hum;
+    public float getHur() {
+        return hur;
     }
 
-    public void setHum(float hum) {
-        this.hum = hum;
+    public void setHur(float hur) {
+        this.hur = hur;
     }
-
 }

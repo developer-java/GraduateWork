@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Дистанционное управление</string>
-    <string name="eroor">Что то пошло не так!</string>
-    <string name="control">Управление</string>
-    <string name="inform">Информация</string>
-    <string name="temperature">Температура:</string>
-    <string name="hum">Влажность:</string>
+    <string name="app_name">Қашықтықтан басқару</string>
+    <string name="control">Басқару</string>
+    <string name="inform">Ақпарат</string>
+    <string name="temperature">Температурасы</string>
+    <string name="hum">Ылғалдылығы</string>
+    <string name="tv">Теледидар</string>
+    <string name="tvDesc">Кішігірім сұйық кристалды теледидарлар 50 ден 80 Вт/с на дейін, айына 8-12 кВт/с дейін қуат көзін жұмсайды.Теледииарды өшіру естен шықтыма? Қашықтықтан басқар!</string>
+    <string name="coffe">Кофеқайнатқыш</string>
+    <string name="coffeDesc">Үйге келе сала ыстық сусын ішкіңіз келсе, алдын-ала құрылғыны іске қосыңыз!</string>
+    <string name="cool">Кондиционер</string>
+    <string name="coolDesc">Ұзақ мерзімге үйден кетіп, кондиционерді істен шығару есіңізден шықса! Қашықтықтан басқар!</string>
+    <string name="error">Серверге сұраныс жасау барысында қателік кетті!</string>
+    <string name="menu1"></string>
+    <string name="menu2">Бағдарлама туралы</string>
+    <string name="menu3">Шығу</string>
+    <string name="menu4">Құрылғылар</string>
+    <string name="author">Автор</string>
+    <string name="email">Электрондық почта: </string>
+    <string name="fio">Аты жөні: </string>
+    <string name="studentIs">Студент: </string>
+    <string name="afio">Мағжан Амангелдіұлы</string>
+    <string name="aemail">amangeldi144@gmail.com</string>
+    <string name="student">Қазақ агротехникалық университеті</string>
+    <string name="connected">Қосылған</string>
+    <string name="disconnected">Қосылмаған</string>
+    <string name="let">Жобаны Компьютерлік жүйелер және Бағдарламамен қамтамасыз ету мамандығының дипломдық жұмысын қорғау үшін жасалған.</string>
+    <string name="about">
+        \tБұл бағдарлама тұрмыстық техниканы қашықтан басқаруға арналған. Бұл жобаның мақсаты - миллиондаған адамдардың өмірін жеңілдету. Бұл бағдарлама мен Arduino платформасында құрылған жүйенің арқасында тұрмыстық техниканы әлемнің кез-келген жерінен басқара аласыз.
+    </string>
 </resources>
